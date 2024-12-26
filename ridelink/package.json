@@ -1,0 +1,49 @@
+{
+  "name": "ridelink",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^5.7.5",
+    "@mapbox/mapbox-gl-geocoder": "^5.0.3",
+    "@mapbox/search-js-react": "^1.0.0-beta.24",
+    "@react-google-maps/api": "^2.20.3",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "leaflet": "^1.9.4",
+    "mapbox-gl": "^3.8.0",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.8.4",
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-autosuggest": "^10.1.0",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.4.0",
+    "react-leaflet": "^4.2.1",
+    "react-map-gl": "^7.1.7",
+    "react-native-maps": "^1.20.1",
+    "react-native-maps-directions": "^1.9.0",
+    "svix": "^1.37.0",
+    "uuid": "^10.0.0",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.14",
+    "@types/mapbox__mapbox-gl-geocoder": "^5.0.0",
+    "@types/mapbox-gl": "^3.4.1",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "cypress": "^13.16.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.16",
+    "typescript": "^5"
+  }
+}
